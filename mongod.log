@@ -1,0 +1,30 @@
+2016-04-02T23:45:21.188-0400 [initandlisten] MongoDB starting : pid=23066 port=27017 dbpath=/home/jamie/Projects/RemindMe/db/ 32-bit host=sda8
+2016-04-02T23:45:21.188-0400 [initandlisten] 
+2016-04-02T23:45:21.188-0400 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-02T23:45:21.188-0400 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-02T23:45:21.188-0400 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-02T23:45:21.188-0400 [initandlisten] 
+2016-04-02T23:45:21.188-0400 [initandlisten] db version v2.6.10
+2016-04-02T23:45:21.188-0400 [initandlisten] git version: nogitversion
+2016-04-02T23:45:21.188-0400 [initandlisten] OpenSSL version: OpenSSL 1.0.2d 9 Jul 2015
+2016-04-02T23:45:21.188-0400 [initandlisten] build info: Linux lgw01-23 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2016-04-02T23:45:21.188-0400 [initandlisten] allocator: tcmalloc
+2016-04-02T23:45:21.188-0400 [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/home/jamie/Projects/RemindMe/db/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/jamie/Projects/RemindMe/mongod.log" } }
+2016-04-02T23:45:21.192-0400 [initandlisten] journal dir=/home/jamie/Projects/RemindMe/db/journal
+2016-04-02T23:45:21.192-0400 [initandlisten] recover : no journal files present, no recovery needed
+2016-04-02T23:45:21.510-0400 [initandlisten] ERROR: listen(): bind() failed errno:98 Address already in use for socket: 0.0.0.0:27017
+2016-04-02T23:45:21.510-0400 [initandlisten] ERROR:   addr already in use
+2016-04-02T23:45:21.511-0400 [initandlisten] now exiting
+2016-04-02T23:45:21.511-0400 [initandlisten] dbexit: 
+2016-04-02T23:45:21.511-0400 [initandlisten] shutdown: going to close listening sockets...
+2016-04-02T23:45:21.511-0400 [initandlisten] shutdown: going to flush diaglog...
+2016-04-02T23:45:21.511-0400 [initandlisten] shutdown: going to close sockets...
+2016-04-02T23:45:21.511-0400 [initandlisten] shutdown: waiting for fs preallocator...
+2016-04-02T23:45:21.511-0400 [initandlisten] shutdown: lock for final commit...
+2016-04-02T23:45:21.511-0400 [initandlisten] shutdown: final commit...
+2016-04-02T23:45:21.516-0400 [initandlisten] shutdown: closing all files...
+2016-04-02T23:45:21.517-0400 [initandlisten] closeAllFiles() finished
+2016-04-02T23:45:21.517-0400 [initandlisten] journalCleanup...
+2016-04-02T23:45:21.517-0400 [initandlisten] removeJournalFiles
+2016-04-02T23:45:21.519-0400 [initandlisten] shutdown: removing fs lock...
+2016-04-02T23:45:21.519-0400 [initandlisten] dbexit: really exiting now
